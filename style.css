@@ -1,0 +1,392 @@
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width:900px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px black;
+    position: relative;
+}
+
+.left-section {
+    width: 30%;
+    background-color: #7cb8c4;
+    padding: 20px;
+    box-sizing:border-box;
+    border-right: 3px solid rgb(255, 119, 0);
+}
+
+.profile-section img {
+    width: 12rem;
+    height: 13rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 4px solid #075671b1;
+}
+
+.left-section h3{
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.education h4{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.education .A{
+    line-height: 3px;
+    padding-bottom: 9px;
+    font-size: 14px;
+}
+
+.AB p{
+    line-height:3px ;
+    padding-bottom:9px ;
+    font-size: 14px;
+}
+.education .Aa{
+    padding-bottom: 0;
+    line-height: 3px;
+}
+
+.experience li{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+.certificates a{
+    text-decoration: none;
+    color:   #075671b1;
+}
+
+
+
+
+
+.right-section {
+    width: 70%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: rgba(150, 206, 223, 0.305);
+}
+
+.header h1 {
+    font-size: 58px;
+    margin: 0;
+    color: #7cb8c4;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header #header{
+    line-height: 5px;
+    border-left: 2px solid black;
+    padding:0 10px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.contact-info {
+    background-color: #075671b1;
+    color: white;
+    padding: 1rem 0;
+    width: 70%; 
+    margin: 2rem 0; 
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 12px;
+    box-sizing: border-box;
+    position:absolute;
+    top: 10rem; 
+    right: 0;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+.contact-info i{
+    color: rgb(255, 119, 0);
+    padding-right: 7px;
+    font-size: 15px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info p {
+    margin: 0;
+    padding: 0 0px;
+    text-align: center;
+}
+
+.career-objective{
+    margin-top: 7rem;
+    border-bottom: 4px solid  lightgray;
+    padding-bottom: 10px;
+ }
+.career-objective p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.right-section h3{
+    font-weight: bold;
+    font-size: 25px; 
+}
+.right-section h4{
+    font-weight: bold;
+}
+
+.slills{
+    margin-top: 2rem;
+}
+
+.skills ul li{
+    font-size: 5px;
+}
+.language-skills{
+    display: inline-block;
+    width: 50%;
+    border-right: 2px solid #075671b1;
+    border-bottom: 2px solid #075671b1;
+    border-radius: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.computer-skills{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-height: 25rem;
+    border-right: 2px solid #075671b1;
+    border-bottom: 2px solid #075671b1;
+    border-radius: 10px;
+    margin: 5px 5px 5px 20px;
+}
+
+.star{ margin-left: 5rem;}
+.star1{margin-left: 5.7rem;}
+.star2{margin-left: 2.4rem;}
+.starA{margin-left: 5.5rem;}
+.starB{margin-left: 6rem;}
+.starC{margin-left: 6.8rem;}
+
+#full{
+    color: rgb(83, 82, 82);
+}
+#empty{
+    color: rgb(147, 147, 147);
+}
+.reference{
+    margin-top: 3rem;
+}
+.reference a{
+    text-decoration: none;
+    color: #075671b1;
+}
+
+
+.social-media {
+    background-color: #075671b1;
+    color: white;
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    border-top: 3px solid rgb(255, 119, 0);
+}
+
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.icons a:hover {
+    transform: scale(1.1);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: #7cb8c4;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 13px;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        margin:0;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .left-section{
+        border-left: 3px solid rgb(255, 119, 0) ;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: start;
+        position:absolute; 
+        width: 100%;
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 50px;
+        padding:8px 20px;
+       }
+    .social-media{
+      flex-direction: column;
+      line-height: 30px;
+      font-size: 15px;
+      padding: 2px;
+      
+    }
+    
+    .education{
+        margin-top: 170px;
+        text-align: center;
+    }
+    .education h3{
+        padding-bottom: 16px;
+    }
+    
+    .education h4{
+        font-size: 18px;
+    }
+    .education p{
+         font-size: 18px;
+    }
+    .experience{
+        padding-left: 20px;
+    }
+    .experience h3{
+        text-align: center;
+        padding-bottom: 16px;
+    }
+     
+    .experience li{
+        font-size: 20px;
+    }
+
+    .certificates{
+        padding-left: 20px;
+        line-height: 20px;
+    }
+    .certificates h3{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .certificates p{
+        font-size: 20px;
+    }
+   
+    .right-section #header{
+        margin-top: 25px;
+        
+    }
+    .career-objective{
+       text-align: center;
+        margin-top: 50px; 
+    }
+    .career-objective p{
+        
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+    .skills{
+        padding-left: 20px;
+    }
+    .language-skills{
+        width: 100%;
+        border-right: none;
+    }
+    .computer-skills{
+        width: 100%;
+        border-right: none;
+        min-height: auto;
+        margin: 5px;
+    }
+    .reference{
+        margin-bottom: 30px;
+    }
+    .icons{
+        padding-bottom: 10px;
+    }
+}
