@@ -294,6 +294,9 @@
         margin: 0;
         box-sizing: border-box;
     }
+    .profile-section img{
+        height: 12rem;
+    }
     .left-section{
         border-left: 3px solid rgb(255, 119, 0) ;
         padding: 20px 0;
@@ -307,7 +310,7 @@
         width: 100%;
         font-size: 15px;
         line-height: 30px;
-        margin-top: 50px;
+        margin-top: 5rem;
         padding:8px 20px;
        }
     .social-media{
